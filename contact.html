@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Assignment 5</title>
+
+       <meta charset="utf-8" />
+
+       <!-- CSS -->
+       <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+   <header>
+     <nav>
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About Me</a></li>
+         <li><a href="portfolio.html">Portfolio</a></li>
+         <li><a href="contact.html">Contact Me</a></li>
+       </ul>
+     </nav>
+   </header>
+
+    <main>
+      <div class="container">
+         <h1>Get in Touch</h1>
+         <p>Fill out the form to get in contact with me!</p>
+      </div>
+         <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+         <div class="first-name input-selection">
+         <label for="firstname" class="label_input_wrap"> First Name:
+          </label>
+          <input type="text" name="firstname" id="firstname"
+          placeholder="ex. John" />
+          </div>
+
+         <div class="last-name input-selection">
+          <label for="lastname" class="label_input_wrap">Last Name:</label>
+          <input type="text" name="lastname" id="lastname"
+          placeholder="ex. Smith"/>
+          </div>
+
+          <div class="email input-selection">
+          <label for="email" class="label_input_wrap">Email:</label>
+          <input type="email" name="email" id="email"
+          placeholder="jsmith@example.com"/>
+          </div>
+
+          <div class="telephone input-selection">
+            <label for="telephone"
+            class="label_input_wrap">Telephone:</label>
+            <input type="tel" name="telephone" id="telephone"
+            placeholder="555-555-5555" />
+          </div>
+
+          <div class="comments">
+            <label for="comments" class="label_input_wrap">Comments: </label>
+            <textarea name="comments" id="comments" cols="55" rows="5"
+            placeholder="Your Comment Goes Here"></textarea>
+          </div>
+
+          <div class="reset">
+            <input type="reset" value="Refresh" />
+          </div>
+
+
+          <div class="submit">
+            <input type="submit" value="Send me a message!" />
+          </div>
+
+          <h3>Feel free to ask a question!</h3>
+          <h4>I will get back to you as soon as possible! -Zoe Turnbull</h4>
+
+       </form>
+    </main>
+  <footer>
+      <p>This page was designed by Zoe Turnbull</p>
+    </footer>
+  </body>
+</html>
