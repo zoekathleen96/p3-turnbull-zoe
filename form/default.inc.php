@@ -48,6 +48,7 @@ footer {
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Me</a></li>
+      <li><a href="resume.html">Resume</a></li>
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="contact.html">Contact Me</a></li>
     </ul>

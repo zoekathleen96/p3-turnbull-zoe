@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--CSS-->
 <link type="text/css" rel="stylesheet" href="css/styles.css" />
 
 <link rel="shortcut icon" href="images/favicon.ico" type="img/ico" />
-
 
 <style>
   body {text-align: center}
@@ -15,7 +16,16 @@ h1   {color: black;}
 p    {color: black;}
 </style>
 
-<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EZ463PDEF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3EZ463PDEF');
+</script>
+
 <title>Resume</title>
 <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
 
@@ -30,7 +40,6 @@ h1 {
   font-family: 'Monsieur La Doulaise', cursive;
   font-size: 70px;
 }
-
 
 p {
   font-family: helvetica;
@@ -69,12 +78,11 @@ nav li {
   }
   </style>
 
-</head>
-
+<!--Navigation-->
 <body>
   <nav>
-    <ul>
 <div class="nav">
+       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="resume.html">Resume</a></li>
@@ -82,9 +90,11 @@ nav li {
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+  </div>
 
   <h1>Resume</h1>
 
+<!--Image-->
   <section class="gallery">
     <a href="images/resume.png" data-lightbox="image-1" data-title="images"><img src="images/resume.png" alt="resume" title="resume" width= 500px/></a>
 
@@ -92,6 +102,7 @@ nav li {
   </section>
 </div>
 
+<!--lightbox-->
 <script src="lightbox/src/js/lightbox.js"></script>
 
 </body>

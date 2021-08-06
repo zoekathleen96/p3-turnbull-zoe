@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--CSS-->
 <link type="text/css" rel="stylesheet" href="css/styles.css" />
-
 <link rel="shortcut icon" href="images/favicon.ico" type="img/ico" />
 
 <style>
@@ -14,7 +14,16 @@ h1   {color: black;}
 p    {color: black;}
 </style>
 
-<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EZ463PDEF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3EZ463PDEF');
+</script>
+
 <title>About</title>
 <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
 <style>
@@ -25,7 +34,6 @@ h1 {
 
 p {
   font-family: helvetica;
-  text-align: justifty;
   font-size: 17px;
   margin: 20px;
 }
@@ -63,43 +71,39 @@ nav li {
 }
   </style>
 
-</head>
+  <style>
+  img {
+    border: 1px solid #333;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #5D3F15;
+  }
+  </style>
 
+<!--Navigation-->
 <body>
   <nav>
-    <ul>
 <div class="nav">
+     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-    </nav>
+    </div>
+  </nav>
 
   <h1>About Me</h1>
 
-  <div class="container">
-    <img src="images/me.png" alt="me" title="me" width="400" />
 
+  <div class="image">
+    <img src="images/me.png" alt="me" title="me" width="400" />
   </div>
 
     <div class="text">
-
-    <article>
       <p>Hello, my name is Zoe Turnbull. I am a Marketing Coordinator at a marketing agency (RISE Marketing). I hold a Bachelor of Science in Public Relations from The University of Florida and am currently pursuing a Master of Arts in Mass Communications with a specialization in Public Relations and Communication Management.</p>
       <p>I was born and raised in England and moved to Florida 10 years ago at the age of 14. I am happily married as of April of 2021 to my middle school sweetheart.</p>
-     </article>
     </div>
-
-    <style>
-    img {
-      border: 1px solid #333;
-      margin-bottom: 25px;
-      padding: 10px;
-      background-color: #5D3F15;
-    }
-    </style>
-
-</body>
+ </body>
 </html>
